@@ -1,4 +1,4 @@
-# FishTrace — A REAL-TIME FISH IDENTIFICATION AND QUANTITY AVAILABILITY MONITORING SYSTEM FOR LOCAL FISH MARKETS
+# FishTrace — A Real-Time Fish Identification And Quantity Availability Monitoring System For Local Fish Markets
 
 A React Native mobile application for real-time fish market inventory management, vendor stall tracking, and user browsing. Built with Expo, Firebase, and a modern design system.
 
@@ -60,7 +60,7 @@ A React Native mobile application for real-time fish market inventory management
 ## 🏗️ System Architecture
 
 ```
-![SA](https://github.com/user-attachments/assets/dfb9860f-809e-4f5b-be2f-0aa6301fd8fe)
+<img width="1164" height="655" alt="image" src="https://github.com/user-attachments/assets/64a222c2-9b59-4541-b7ba-1cf09786a712" />
 ```
 
 ### Data Flow
