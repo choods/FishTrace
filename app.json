@@ -2,6 +2,28 @@
   "expo": {
     "name": "FishTrace",
     "slug": "FishTrace",
-    "version": "1.0.0"
+    "version": "2.2.0",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.fishtrace.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#103461"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.fishtrace.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "86d3610a-d0dc-4749-95b0-818101419519"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
