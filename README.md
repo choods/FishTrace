@@ -59,9 +59,7 @@ A React Native mobile application for real-time fish market inventory management
 
 ## 🏗️ System Architecture
 
-```
 ![System Architecture](https://github.com/user-attachments/assets/64a222c2-9b59-4541-b7ba-1cf09786a712)
-```
 
 ### Data Flow
 1. **User** browses fish → queries `vendors` collection for fish listings
