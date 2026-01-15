@@ -44,7 +44,6 @@ A React Native mobile application for real-time fish market inventory management
 
 ### Vendor Features
 - 🏪 **Stall Management** — Add/edit/delete fish listings
-- ⏱️ **Session Management** — Start/end selling sessions with timestamps
 - 💵 **Price Updates** — Update fish pricing in real-time
 - 📈 **Inventory Control** — Manage quantity and stock status
 - 📋 **Activity Log** — View history of all stall actions
@@ -55,26 +54,13 @@ A React Native mobile application for real-time fish market inventory management
 - 🏢 **Vendor Management** — Create, edit vendor accounts
 - 📊 **Activity Monitoring** — View all system activity logs
 - 🔒 **Access Control** — Manage vendor/admin credentials
-- 📈 **System Analytics** — Track vendor sessions and inventory changes
 
 ---
 
 ## 🏗️ System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   React Native (Expo)                   │
-│  ┌──────────────┬──────────────┬──────────────────────┐ │
-│  │   User App   │  Vendor App  │   Admin Dashboard    │ │
-│  └──────────────┴──────────────┴──────────────────────┘ │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-        ┌──────────────┴──────────────┐
-        │     Firebase (Backend)       │
-        ├──────────────┬───────────────┤
-        │  Firestore   │ Authentication│
-        │  (Database)  │ (Auth)        │
-        └──────────────┴───────────────┘
+![SA](https://github.com/user-attachments/assets/dfb9860f-809e-4f5b-be2f-0aa6301fd8fe)
 ```
 
 ### Data Flow
@@ -433,10 +419,10 @@ This is a capstone project for educational purposes. Proprietary — not license
 ## 🎓 Credits
 
 **Project:** FishTrace Capstone (CAPSTONE Project and Research 2)  
-**Team:** [Your School / Institution]  
+**Team:** USTP BSIT - FRANCIS KIM MAPUTOL NERI, JIMSMAR OLIVER OSA PESTAÑO, CHODORICK JUSTINE GUDA TINGTING, DAN YVES PALATIS JABAGAT, ROBERT CUESTORIO AMPARO   
 **Built with:** React Native, Expo, Firebase
 
 ---
 
-**Last Updated:** November 29, 2025  
-**Version:** 1.0.0
+**Last Updated:** January 15, 2026 
+**Version:** 1.0.1
